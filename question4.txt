@@ -75,3 +75,51 @@ console.log(a-b);
 console.log(a*b);
 console.log(a/b);
 console.log(a%b);
+
+
+Task 3: Simple Programs todo for Condition , Looping and Arrays
+
+Q1.Write a loop that makes seven calls to console.log to output the following triangle:
+
+for(var i=1;i<=7;i++){
+    var a="";
+    for(var j=1;j<=i;j++){
+        a=a+"#";
+    }
+    console.log(a)
+
+}
+
+Q3.Starting from the friends variable below, Loop and Print the names till you meet CaptianAmerica.
+
+var friends = ["Mari", "MaryJane", "CaptainAmerica", "Munnabai", "Jeff", "AAK chandran"];
+
+function dataHandling(input) {
+  for (var i = 0; i < input.length; i++) {
+    console.log(input[i]);
+    if (input[i] === "CaptainAmerica") {
+      break;
+    }
+  }
+}
+
+dataHandling(friends);
+
+
+Find the person is ur friend or not.
+
+var friends = ["Mari", "MaryJane", "CaptainAmerica", "Munnabai", "Jeff", "AAK chandran"];
+
+function dataHandling(input, name){
+for (var i = 0; i < input.length; i++) {
+    if(input[i]===name){
+        return "found"
+    }
+}
+
+return "Not found"
+}
+
+let found = dataHandling(friends,"Jeff");
+
+console.log(found);
