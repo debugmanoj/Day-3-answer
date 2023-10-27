@@ -1,0 +1,1 @@
+This files contains Day 3 task answer which deals with Json XMLHttpRequest and more simple javascript programs

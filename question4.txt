@@ -1,0 +1,77 @@
+Task 1
+
+Q1.Declare four variables without assigning values and print them in console
+
+var var1, var2, var3, var4;
+
+console.log(var1, var2, var3, var4);
+
+Q2/How to get value of the variable myvar as output
+
+var m=1;
+console.log(m);
+
+
+Q3.Declare variables to store your first name, last name, marital status, country and age in multiple lines
+
+var Fname="Manoj";
+var Lname="Kumar"
+var Mstatus="Single"
+var Country="Indian"
+var age=22
+
+Q4.Declare variables to store your first name, last name, marital status, country and age in a single line
+
+var first_name = "Manoj", last_name = "Kumar", marital_status = "Single", country = "Indian", age = 22;
+
+Q6.Declare variables and assign string, boolean, undefined and null data types
+
+var myString = "Hello, World";
+
+var myBoolean = true;
+
+var myUndefined = undefined;
+
+var myNull = null;
+
+Q7.Convert the string to integer
+
+var b="70";
+console.log(parseInt(b))
+console.log(numValue);
+console.log(+b)
+-------------------------------------------------------------------------------------------------------
+Task 2: Simple Programs todo for Operators
+
+Q1.Square of a number
+
+var number = 5;
+console.log(number * number)
+
+Q3.Addition of 3 numbers
+
+let num1 = 5;
+let num2 = 10;
+let num3 = 15;
+
+let result = num1 + num2 + num3;
+
+console.log(result);
+
+Q4.Display the asterisk pattern as shown below(No loop needed):
+
+console.log("*****")
+console.log("*****")
+console.log("*****")
+console.log("*****")
+console.log("*****")
+
+Q18.Given two numbers and perform all arithmetic operations.
+
+var a=10;
+var b=20;
+console.log(a+b);
+console.log(a-b);
+console.log(a*b);
+console.log(a/b);
+console.log(a%b);
